@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <nav class="nav" aria-label="Hoofdnavigatie">
   <div class="container">
     <div class="nav__inner">
-      <a href="index.html" class="nav__logo"><img src="images/logo.png" alt="Volt Vink" height="36"></a>
+      <a href="index.html" class="nav__logo"><img src="images/logo-wit.svg" alt="Volt Vink" height="40"></a>
       <div class="nav__links">
         <a href="thuisbatterij.html">Thuisbatterij</a>
         <a href="zonnepanelen.html">Zonnepanelen</a>
@@ -257,7 +257,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <div class="container">
     <div class="footer__grid">
       <div class="footer__brand">
-        <div class="footer__logo"><img src="images/logo.png" alt="Volt Vink" height="40" style="filter:brightness(0) invert(1);opacity:0.9;"></div>
+        <div class="footer__logo"><img src="images/logo-wit.svg" alt="Volt Vink" height="44"></div>
         <p class="footer__tagline">De installateur voor uw duurzame energiesystemen. Eerlijk advies, vakwerk en duurzame energie voor particulieren en bedrijven.</p>
         <div class="footer__social">
           <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>

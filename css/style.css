@@ -86,7 +86,7 @@ p  { color: var(--gray-600); }
   height: 72px; gap: 24px;
 }
 .nav__logo { display: flex; align-items: center; }
-.nav__logo img { height: 44px; width: auto; display: block; filter: brightness(0) invert(1); padding: 2px 0; }
+.nav__logo img { height: 40px; width: auto; display: block; padding: 2px 0; }
 .nav__links {
   display: flex; align-items: center; gap: 4px; flex: 1; justify-content: center;
 }
