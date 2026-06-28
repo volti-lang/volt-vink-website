@@ -424,17 +424,108 @@
 </section>
 
 <!-- ── CTA banner ──────────────────────────────── -->
-<section class="cta-banner">
+<section class="section section--gray" id="contact">
   <div class="container">
-    <div class="cta-banner__inner">
-      <div>
-        <h2>Klaar om te besparen op uw energierekening?</h2>
-        <p>Vraag vandaag nog een gratis en vrijblijvend adviesgesprek aan. Wij reageren binnen 1 werkdag.</p>
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <span class="label">Contact</span>
+        <h2>Vraag gratis advies aan</h2>
+        <p>Vul het formulier in. Wij nemen binnen 1 werkdag contact met u op — geen verkooppraatjes, gewoon eerlijk advies.</p>
+        <div class="contact-info__items">
+          <div class="contact-info__item">
+            <div class="contact-info__icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="contact-info__text">
+              <strong>Telefoon</strong>
+              <a href="tel:+31085744482">085 744 4832</a>
+            </div>
+          </div>
+          <div class="contact-info__item">
+            <div class="contact-info__icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="contact-info__text">
+              <strong>E-mail</strong>
+              <a href="mailto:info@voltvink.com">info@voltvink.com</a>
+            </div>
+          </div>
+          <div class="contact-info__item">
+            <div class="contact-info__icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="contact-info__text">
+              <strong>Openingstijden</strong>
+              <span>Maandag – Vrijdag: 08:00 – 18:00</span>
+            </div>
+          </div>
+        </div>
       </div>
-      <div style="display:flex;gap:14px;flex-shrink:0;flex-wrap:wrap;">
-        <a href="contact.php" class="btn btn--dark btn--lg">Vraag gratis advies aan</a>
-        <a href="tel:+31085744482" class="btn btn--ghost btn--lg" style="border-color:rgba(13,27,42,0.25);">Bel direct</a>
-      </div>
+
+      <form class="form" action="contact.php" method="POST">
+        <div class="form__header">
+          <h3>Uw aanvraag</h3>
+          <p>Wij reageren binnen 1 werkdag</p>
+        </div>
+        <div class="form__row">
+          <div class="form__group">
+            <label for="naam">Naam *</label>
+            <input type="text" id="naam" name="naam" placeholder="Jan de Vries" required>
+          </div>
+          <div class="form__group">
+            <label for="telefoon">Telefoon *</label>
+            <input type="tel" id="telefoon" name="telefoon" placeholder="06 12345678" required>
+          </div>
+        </div>
+        <div class="form__group">
+          <label for="email">E-mailadres *</label>
+          <input type="email" id="email" name="email" placeholder="jan@email.nl" required>
+        </div>
+        <div class="form__group">
+          <label for="woonplaats">Woonplaats *</label>
+          <input type="text" id="woonplaats" name="woonplaats" placeholder="Roermond" required>
+        </div>
+        <div class="form__group">
+          <label>Interesse</label>
+          <div class="interest-grid">
+            <div class="interest-option">
+              <input type="checkbox" id="h-bat" name="interesse[]" value="Thuisbatterij">
+              <label for="h-bat">
+                <svg class="interest-option__icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="18" height="12" rx="2"/><line x1="23" y1="13" x2="23" y2="11"/></svg>
+                Thuisbatterij
+              </label>
+            </div>
+            <div class="interest-option">
+              <input type="checkbox" id="h-zon" name="interesse[]" value="Zonnepanelen">
+              <label for="h-zon">
+                <svg class="interest-option__icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/></svg>
+                Zonnepanelen
+              </label>
+            </div>
+            <div class="interest-option">
+              <input type="checkbox" id="h-laad" name="interesse[]" value="Laadpaal">
+              <label for="h-laad">
+                <svg class="interest-option__icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                Laadpaal
+              </label>
+            </div>
+            <div class="interest-option">
+              <input type="checkbox" id="h-comb" name="interesse[]" value="Combinatie">
+              <label for="h-comb">
+                <svg class="interest-option__icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Combinatie
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form__group">
+          <label for="opmerking">Bericht (optioneel)</label>
+          <textarea id="opmerking" name="opmerking" rows="3" placeholder="Vertel ons wat meer over uw situatie..."></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full btn--lg">Verstuur aanvraag</button>
+      </form>
+
     </div>
   </div>
 </section>
