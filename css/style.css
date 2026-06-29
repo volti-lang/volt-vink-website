@@ -146,7 +146,7 @@ p  { color: var(--gray-600); }
   background: radial-gradient(ellipse 60% 50% at 65% 40%, rgba(26,92,229,0.06) 0%, transparent 60%);
   pointer-events: none;
 }
-.hero__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; position: relative; z-index: 1; }
+.hero__grid { display: grid; grid-template-columns: 1fr minmax(320px,500px); gap: 56px; align-items: center; position: relative; z-index: 1; }
 .hero__label {
   display: inline-flex; align-items: center; gap: 8px;
   background: rgba(26,92,229,0.12); color: var(--amber);
