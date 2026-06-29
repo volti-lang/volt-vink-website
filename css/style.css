@@ -186,7 +186,7 @@ p  { color: var(--gray-600); }
   display: flex; align-items: center; justify-content: center;
   gap: 36px; flex-wrap: wrap;
 }
-.trust-bar__inner img { max-height: 48px; width: auto; object-fit: contain; }
+.trust-bar__inner img { height: 44px; width: 120px; object-fit: contain; }
 .trust-bar__item {
   display: flex; align-items: center; gap: 9px;
   color: var(--gray-800); font-weight: 600; font-size: 0.88rem;
