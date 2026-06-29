@@ -400,7 +400,7 @@ p  { color: var(--gray-600); }
 .form__header h3 { font-size: 1.3rem; margin-bottom: 6px; }
 .form__header p { font-size: 0.9rem; }
 .form__row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
-.form__group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+.form__group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; min-width: 0; }
 .form__group:last-child { margin-bottom: 0; }
 .form__group label { font-size: 0.82rem; font-weight: 600; color: var(--gray-800); }
 .form__group input,
