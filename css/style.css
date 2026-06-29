@@ -445,6 +445,16 @@ p  { color: var(--gray-600); }
 .form__alert--success { background: #ECFDF5; border: 1px solid #6EE7B7; color: #065F46; }
 .form__alert--error   { background: #FEF2F2; border: 1px solid #FCA5A5; color: #991B1B; }
 
+/* ── Legal / Algemene voorwaarden ───────────── */
+.legal { color: var(--gray-800); line-height: 1.75; }
+.legal__meta { font-size: 0.82rem; color: var(--gray-400); padding-bottom: 24px; margin-bottom: 8px; border-bottom: 1px solid var(--gray-200); }
+.legal h2 { font-size: 1.15rem; margin: 36px 0 12px; color: var(--text); }
+.legal p { margin-bottom: 14px; font-size: 0.95rem; }
+.legal ul { margin: 0 0 16px; padding-left: 22px; }
+.legal li { margin-bottom: 8px; font-size: 0.95rem; }
+.legal a { color: var(--amber); }
+.legal__contact { margin-top: 36px; padding: 18px 22px; background: var(--gray-50); border-radius: var(--radius-sm); font-size: 0.92rem; }
+
 /* ── Footer ─────────────────────────────────── */
 .footer { background: var(--navy); color: var(--white); padding-top: 64px; }
 .footer__grid {
